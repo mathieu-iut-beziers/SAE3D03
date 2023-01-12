@@ -1,0 +1,15 @@
+--- verify-ipv6-1/admin123_show-ipv6-interface-gig-1_parsed.txt
++++ verify-ipv6-2/admin123_show-ipv6-interface-gig-1_parsed.txt
+ GigabitEthernet1:
+  ipv6:
+-  FE80::20C:29FF:FEB8:FB9C:
+-   ip: FE80::20C:29FF:FEB8:FB9C
+-   origin: link_layer
+-   status: valid
++  FE80::56:1:
++   ip: FE80::56:1
++   origin: link_layer
++   status: valid
+  joined_group_addresses:
+-  index[2]: FF02::1:FFB8:FB9C
++  index[2]: FF02::1:FF56:1
